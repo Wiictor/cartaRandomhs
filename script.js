@@ -51,7 +51,7 @@ function ImprimirObjeto(o) {
 function showCard(cardNo, string){
   var obj = cards[cardNo];
   var img = "#card-image"+string;
-  $("#card-image"+string).attr('src', obj.img);
+  $("#card-image"+string).attr('src', obj.imgGold);
    $("#card-name"+string).html(obj.name);
   // $("#card-type").text(obj.type);
   // $("#card-faction").text(obj.faction);
